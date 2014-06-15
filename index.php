@@ -86,6 +86,12 @@
                 <h2>About Me</h2>
                 <p>I'm a student of everything IT. I live for learning new things and go beyond what I already know. I've been a farmer, I've worked with forestry, now I'm in IT and I'm still not sure what I want to work with. Maybe you have the answer for me?</p>
                 <p>I love the web, user experience, agile projects, software testing and the cloud but mostly I like working with people and making the internet a better place. I believe the IT industry needs to evolve into a more diverse and all-including environment and I want to be part of making that happen.</p>
+                <h2>Projects</h2>
+                  <li><a href="baseline.0.5.3/example/index.php">Baseline Installation</a></li>
+                  <li><a href="skeleton/index.php">Skeleton Installation</a></li>
+                  <li><a href="Wee/index.php">Wee Installation</a></li>
+                  <li><a href="PersistantHeaders/">Persistant Headers</a></li>
+                  <li><a href="one-page-wonder/">The Airbox Lightbox</a></li>
                 <div class="page-scroll">
                     <a href="#blog" class="btn btn-circle">
                         <i class="fa fa-angle-down animated"></i>

@@ -1,0 +1,178 @@
+{
+    "project": {},
+    "files": {
+        "src/airbox.js": {
+            "name": "src/airbox.js",
+            "modules": {},
+            "classes": {
+                "Main": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        }
+    },
+    "modules": {},
+    "classes": {
+        "Main": {
+            "name": "Main",
+            "shortname": "Main",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "file": "src/airbox.js",
+            "line": 1,
+            "description": "Airbox – lightweight, airy jQuery lightbox\nVersion 0.1.0 – https://github.com/AndyAkesson/airbox\n\nCopyright 2013, Anders Akesson\nMassachusetts Institute of Technology Licensed.\nUse as you please."
+        }
+    },
+    "classitems": [
+        {
+            "file": "src/airbox.js",
+            "line": 13,
+            "description": "ab contains all deafults that the functionality requires;\nnamespace, context, select, targetAttr, openTrigger, closeTrigger, resetCss.",
+            "itemtype": "method",
+            "name": "The default variables for ab.",
+            "type": "Defaults",
+            "params": [
+                {
+                    "name": "Name",
+                    "description": "of the events and css class prefix.",
+                    "type": "Namespace"
+                },
+                {
+                    "name": "Context",
+                    "description": "used to search for the lightbox content and triggers.",
+                    "type": "Context"
+                },
+                {
+                    "name": "Elements",
+                    "description": "that trigger the lightbox.",
+                    "type": "Select"
+                },
+                {
+                    "name": "Attribute",
+                    "description": "of the triggered element that contains the select to the content.",
+                    "type": "TargetAttr"
+                },
+                {
+                    "name": "Triggers",
+                    "description": "the lightbox.",
+                    "type": "OpenTrigger"
+                },
+                {
+                    "name": "Triggers",
+                    "description": "the closing of the lightbox.",
+                    "type": "CloseTrigger"
+                },
+                {
+                    "name": "Reset",
+                    "description": "css.",
+                    "type": "ResetCss"
+                }
+            ],
+            "class": "Main"
+        },
+        {
+            "file": "src/airbox.js",
+            "line": 43,
+            "description": "Setup everything in the setup function.\nAccess and override all methods using $.ab.methods.",
+            "itemtype": "method",
+            "name": "abSetup",
+            "params": [
+                {
+                    "name": "Configuration",
+                    "description": "for the setup.",
+                    "type": "Config"
+                },
+                {
+                    "name": "The",
+                    "description": "content coming into the function.",
+                    "type": "Content"
+                }
+            ],
+            "class": "Main"
+        },
+        {
+            "file": "src/airbox.js",
+            "line": 75,
+            "description": "Prepares the content and converts it into a jQuery object.",
+            "itemtype": "method",
+            "name": "getContent",
+            "class": "Main"
+        },
+        {
+            "file": "src/airbox.js",
+            "line": 102,
+            "description": "Opens the lightbox.\n\"this\" contains $instance with the lightbox, and with the config.",
+            "itemtype": "method",
+            "name": "open",
+            "params": [
+                {
+                    "name": "event",
+                    "description": "The event triggered"
+                }
+            ],
+            "class": "Main"
+        },
+        {
+            "file": "src/airbox.js",
+            "line": 130,
+            "description": "Closes the lightbox.\n\"this\" contains $instance with the lightbox, and the config.",
+            "itemtype": "method",
+            "name": "close",
+            "params": [
+                {
+                    "name": "event",
+                    "description": "The event triggered."
+                }
+            ],
+            "class": "Main"
+        },
+        {
+            "file": "src/airbox.js",
+            "line": 157,
+            "description": "Extension of jQuery with a standalone airbox method.",
+            "itemtype": "method",
+            "name": "airbox",
+            "params": [
+                {
+                    "name": "$content",
+                    "description": "Content coming in to the function."
+                },
+                {
+                    "name": "config",
+                    "description": "Configurations"
+                }
+            ],
+            "class": "Main"
+        },
+        {
+            "file": "src/airbox.js",
+            "line": 168,
+            "description": "Extension of jQuery with select.",
+            "itemtype": "method",
+            "name": "prototype.airbox",
+            "params": [
+                {
+                    "name": "config",
+                    "description": "Configurations."
+                },
+                {
+                    "name": "$content",
+                    "description": "Content coming in to function."
+                }
+            ],
+            "class": "Main"
+        },
+        {
+            "file": "src/airbox.js",
+            "line": 184,
+            "description": "Bind airbox on document.ready",
+            "itemtype": "method",
+            "name": "$(document).ready",
+            "class": "Main"
+        }
+    ],
+    "warnings": []
+}
